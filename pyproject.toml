@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "captoken"
+version = "0.1.0"
+description = ""
+authors = ["Irhum Shafkat <13271155+irhum@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+regex = "^2023.10.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
