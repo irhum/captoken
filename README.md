@@ -7,6 +7,7 @@ We do this with four specialized tokens \<shift>, \<capss>, \<capse> and \<bksp>
 ### Current Status
 There are four self contained notebooks in this repository, inside `notebooks`:
 
-1. `GPT2 Tokenizer.ipynb` - contains baseline experiments on the GPT-2 tokenizer, to quantify the number of redundant tokens.
-2. `Train Tokenizer` - This trains the two 16k vocabulary SentencePiece tokenizers on the Wikipedia dataset.
-3. `Newsgroups.ipynb` - This (and the `Caps` variant) performs the experiments and plots using the two trained tokenizers.
+1. `Intro.ipynb` - This should be the first notebook examined: it contains a fully worked example using `captoken`.
+2. `GPT2 Tokenizer.ipynb` - contains baseline experiments on the GPT-2 tokenizer, to quantify the number of redundant tokens.
+3. `Train Tokenizer` - This trains the two 16k vocabulary SentencePiece tokenizers on the Wikipedia dataset.
+4. `Newsgroups.ipynb` - This (and the `Caps` variant) performs the experiments and plots using the two trained tokenizers.
